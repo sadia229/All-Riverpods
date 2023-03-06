@@ -1,0 +1,5 @@
+
+final data = StateProvider<String?>((ref)=>'demo data';
+
+ref.read(myProvider.notifier).update((value)=>null);
+final mydata = ref.watch(myProvider) ?? '';
